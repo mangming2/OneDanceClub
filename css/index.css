@@ -1,0 +1,5 @@
+/* 헤더 높이 70px 고정 (pc기준) */
+main {
+  background: #eff;
+  height: 80vh;
+}
