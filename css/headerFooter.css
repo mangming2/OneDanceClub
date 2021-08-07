@@ -44,10 +44,11 @@
 }
 
 
-#footer {
-  text-align: center;
-  bottom: 0;
-  width: 100%;
+.main {
+  min-height: calc(100vh - 20px);
+  background: #eff;
+}
+footer {
   height: 20px;
-  margin: 0 auto;
+  text-align: center;
 }
