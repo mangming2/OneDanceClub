@@ -1,5 +1,14 @@
 /* 헤더 높이 70px 고정 (pc기준) */
+
 main {
   background: #eff;
   height: 80vh;
+  height: 100%;
+  margin: 0;
+}
+section{
+  margin-top: 100px;
+}
+.what_wedo img{
+  width: 300px;
 }
