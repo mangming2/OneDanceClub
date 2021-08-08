@@ -1,0 +1,7 @@
+.executives{
+    display: flex;
+}
+.executives img{
+    width: 200px;
+    height: auto;
+}
