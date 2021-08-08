@@ -25,8 +25,12 @@ section{
 }
 
 .what_wedo_imgs{
-  display: flex;
-  justify-content: space-around;
+  margin-left: 30px;
+}
+.what_wedo_content {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .odc_video{
