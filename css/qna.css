@@ -1,0 +1,13 @@
+.main img{
+    width: 100px;
+}
+.question{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.answer{
+    display: flex;
+    justify-content: flex-end;
+
+}
