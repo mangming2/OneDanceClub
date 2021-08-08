@@ -1,3 +1,8 @@
+/* 구별 용도 */
+header, footer {
+  background: #fef;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -42,13 +47,13 @@
 .header .menu_item {
   padding: 0 20px;
 }
-
-
 .main {
-  min-height: calc(100vh - 20px);
-  background: #eff;
+  min-height: calc(100vh - 134px);
+  /* header: 70, footer: 64 */
 }
-footer {
-  height: 20px;
+.footer {
+  height: 14px;
+  font-size: 14px;
   text-align: center;
+  padding: 25px 0;
 }
