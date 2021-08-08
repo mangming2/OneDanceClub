@@ -1,7 +1,12 @@
-.main img{
+.main .qna img,
+.main .answer .answer_img {
     width: 100px;
 }
+.qna {
+    margin: 70px 0;
+}
 .question{
+    margin-bottom: 30px;
     display: flex;
     justify-content: flex-start;
 }
@@ -10,4 +15,13 @@
     display: flex;
     justify-content: flex-end;
 
+}
+.answer_img {
+    border-radius: 50%;
+}
+.content {
+    width: 50%;
+    margin: 0 30px;
+    
+    background: #fef;
 }
