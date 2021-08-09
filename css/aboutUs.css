@@ -2,3 +2,8 @@
     display: flex;
     justify-content: space-around;
 }
+
+.genre_decription img{
+    width: 531px;
+    height: 298px;
+}
