@@ -5,3 +5,16 @@
     width: 200px;
     height: auto;
 }
+
+
+
+  button.btn1 {
+    position: absolute;
+    top: 50%;
+    left : 50%;
+  }
+  button.btn2 {
+    position: absolute;
+    top: 50%;
+    left : 60%;
+  }

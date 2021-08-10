@@ -70,3 +70,14 @@ $('.btn').click( function() {
     $('#explain').html(genrelist[$(this).attr("id")]["explain"])
     $('#genre_link').attr('href',genrelist[$(this).attr("id")]["link"])
   });
+
+  /*
+function init(){
+  document.getElementsByClassName('genre_img').setAttribute('src',genrelist["choreo"]["img"])
+}
+init();
+버튼에 onClick="changeimg(this.id)" 넣기
+function changeimg(clicked_id){
+  document.getElementsByClassName('genre_img').setAttribute('src',genrelist[clicked_id]["img"])
+}
+*/
