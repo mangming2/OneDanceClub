@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/contact.css">
     <title>Contact | ODC</title>
-    <script src="./js/contact.js"></script>
   </head>
   <body>
     <header class="header">
@@ -26,45 +25,49 @@
         <a href="https://www.youtube.com/channel/UC02HqViXJ-uFmqg0K5gCygg"  target="_blank" class="menu_link link_yt"><span class="visually_hidden">유투브</span></a>
       </div>
     </header>
-
-
+    
+    
     <main class="main">
       <section>
-        동아리방 가는길
+        <h1>동아리방 가는 길</h1>
         <div class="howtogo">
-          <img src="image/contact/test1.jpg" id="photo" alt="가는길">
-          <button class="btn1" onclick="changePic(-1)">이전</button>
-          <button class="btn2" onclick="changePic(+1)">다음</button>
-          
+          <img class="howtogo_img" alt="가는 길">
+          <button class="howtogo_btn1" onclick="prevImg()">이전</button>
+          <button class="howtogo_btn2" onclick="nextImg()">다음</button>
         </div>
       </section>
-
+      
       <section>
-        가입 절차
+        <h1>가입 절차</h1>
       </section>
-
+      
       <section class="executives">
-        임원진
-          <div>
-          <img src="./image/contact/회장_크롭.jpg" alt="회장">
+        <h1>임원진</h1>
+        <article>
+          <img src="./image/contact/president.jpg" alt="회장">
           최화인 010-7611-9475
           @im_fine_tk
-        </div>
-        <div>
-          <img src="./image/contact/부회장_크롭.jpg" alt="부회장">
+        </article>
+        <article>
+          <img src="./image/contact/vice_president.jpg" alt="부회장">
           김민규
           010-9330-1689
           @00_ggyu
-        </div>
+        </article>
+        <article>
+          <img src="./image/contact/treasurer.jpg" alt="부회장">
+          김현이
+          010-9699-2416
+          @illumin2us
+        </article>
       </section>>
-
-
-
+      
     </main>
-
-
+    
+    
     <footer class="footer">
       @이주함 @이지호
     </footer>
+    <script src="./js/contact.js"></script>
   </body>
-</html>
+  </html>

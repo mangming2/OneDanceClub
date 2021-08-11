@@ -1,14 +1,23 @@
+const howtogoImg = document.querySelector(".howtogo_img");
+const maxLengthImg = 2;
+let num = 1;
 
-var num=1
-function changePic(idx){
-    num=num+idx
-    if (num==0){
-        num=1
-    }
-    if (num==3){
-        num=2
-    }
-    var pic=document.getElementById("photo");
-    pic.setAttribute("src", "image/contact/test"+num+".jpg");
-}
+const prevImg = () => {
+    if(num > 1) num -= 1;
+    loadImage();
+};
 
+const nextImg = () => {
+    if(num < maxLengthImg) num += 1;
+    loadImage();
+};
+
+const loadImage = () => {
+    howtogoImg.setAttribute("src", `image/contact/test${num}.jpg`);
+};
+
+const init = () => {
+    loadImage();
+};
+
+init();
