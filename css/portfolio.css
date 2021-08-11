@@ -1,0 +1,12 @@
+img{
+    width: 531px;
+    height: 298px;
+}
+
+.about_activity{
+    display: flex;
+}
+
+.about_second{
+    flex-direction: row-reverse;
+}

@@ -10,7 +10,7 @@ const genrelist={
     "genre_name": "걸스힙합",
     "explain":"여성스러운 이미지와 느낌을 살려 아름다움을 표현하며 섬세한 기술과 표현력을 중요시하고, 섹시함과 파워풀함이 함께 느껴지는 춤입니다. ",
     "img": "./image/aboutus/girlhip.jpg",
-    "link":"https://youtu.be/XuU-n103m9k"
+    "link":"https://www.youtube.com/watch?v=ZbDegGfmca0"
   },
 
   "hiphop":{
@@ -63,10 +63,15 @@ const genrelist={
 
 function init() {
   $('#genre_img').attr('src',genrelist["choreo"]["img"])
+  $('#genre_name').html(genrelist["choreo"]["genre_name"])
+    $('#explain').html(genrelist["choreo"]["explain"])
+    $('#genre_link').attr('href',genrelist["choreo"]["link"])
 }
 init();
 $('.btn').click( function() {
+
     $('#genre_img').attr('src',genrelist[$(this).attr("id")]["img"])
+    $('#genre_name').html(genrelist[$(this).attr("id")]["genre_name"])
     $('#explain').html(genrelist[$(this).attr("id")]["explain"])
     $('#genre_link').attr('href',genrelist[$(this).attr("id")]["link"])
   });
