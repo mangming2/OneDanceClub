@@ -66,3 +66,21 @@
   margin: -1px;
   overflow: hidden;
 }
+@CHARSET "UTF-8";
+@font-face {
+  font-family: 'air';
+  src : url(font\Cafe24Ohsquareair.ttf) format('truetype');
+  font-family: 'jua';
+  src : url(font\BMJUA_ttf.ttf) format('truetype');
+  
+  
+}
+
+
+body{
+  font-family:'jua'
+}
+
+span{
+ 
+}
