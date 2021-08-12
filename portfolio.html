@@ -25,13 +25,13 @@
         <a href="https://www.youtube.com/channel/UC02HqViXJ-uFmqg0K5gCygg"  target="_blank" class="menu_link link_yt"><span class="visually_hidden">유투브</span></a>
       </div>
     </header>
-    <main class="main">
+    <main class="main port" id="portfolio">
       <section class="activity">
         <article class="about_activity">
           <figure class="image_box">
-            <img class="social_activities" >
-            <button class="activity_btn1" onclick="prevImg()"><</button>
-            <button class="activity_btn2" onclick="nextImg()">></button>
+            <img src="./image/portfolio/testt1.jpg" class="change testt" >
+            <button class="activity_btn1" id="testt" onclick="prevImg(this.id)"><</button>
+            <button class="activity_btn2" id="testt" onclick="nextImg(this.id)">></button>
           </figure>
           <div class="content_box">
             <h1>동아리 내 활동</h1>
@@ -46,8 +46,8 @@
           </div>
           <figure class="image_box">
             <img src="./image/portfolio/축제활동.png" >
-            <button class="activity_btn1" onclick="prevImg()"><</button>
-            <button class="activity_btn2" onclick="nextImg()">></button>
+            <button class="activity_btn1" id="other" onclick="prevImg(this.id)"><</button>
+            <button class="activity_btn2" id="other" onclick="nextImg(this.id)">></button>
           </figure>
         </article>
 
@@ -117,7 +117,8 @@
       @이주함 @이지호
     </footer>
 
-    <script src="./js/portfolio.js"></script>
+    
+    <script src="./js/change_img.js"></script>
    
 
   </body>

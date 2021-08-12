@@ -27,13 +27,13 @@
     </header>
     
     
-    <main class="main">
+    <main class="main" id="contact">
       <section>
         <h1>동아리방 가는 길</h1>
         <div class="howtogo">
-          <img class="howtogo_img" alt="가는 길">
-          <button class="howtogo_btn1" onclick="prevImg()">이전</button>
-          <button class="howtogo_btn2" onclick="nextImg()">다음</button>
+          <img class="howtogo_img change test" src="./image/contact/test1.jpg" alt="가는 길">
+          <button class="howtogo_btn1" id="test" onclick="prevImg(this.id)">이전</button>
+          <button class="howtogo_btn2" id="test" onclick="nextImg(this.id)">다음</button>
         </div>
       </section>
       
@@ -78,7 +78,8 @@
     <footer class="footer">
       @이주함 @이지호
     </footer>
-    <script src="./js/contact.js"></script>
+    
+    <script src="./js/change_img.js"></script>
     
   </body>
   </html>

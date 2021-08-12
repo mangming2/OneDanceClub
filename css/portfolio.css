@@ -50,3 +50,15 @@
     font-size: 18px;
     margin: 10px 0;
 }
+
+button {
+    background-color: inherit;
+    border-radius: 50%;
+    border: 2px #fff solid;
+    color: #fff;
+    font-size: 14px;
+  }
+  button:hover {
+    font-weight: bold;
+    border: 3px #fff solid;
+  }
