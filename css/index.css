@@ -1,5 +1,40 @@
-/* 헤더 높이 70px 고정 (pc기준) */
-main {
-  background: #eff;
-  height: 80vh;
+section{
+  margin-top: 100px;
+}
+
+.odc_description{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.odc_description img{
+  width: 200px;
+}
+.odc_description p{
+  width: 400px;
+}
+
+.what_wedo{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.what_wedo img{
+  width: 300px;
+}
+
+.what_wedo_imgs{
+  margin-left: 30px;
+}
+.what_wedo_content {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.odc_video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

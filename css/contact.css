@@ -1,0 +1,38 @@
+.howtogo {
+  position: relative;
+  width: 500px;
+}
+.howtogo .howtogo_img {
+  /* 이미지 크기 임시로 잡아놓음 */
+  width: 500px;
+  height: 500px;
+}
+.howtogo .howtogo_btn1 {
+  position: absolute;
+  bottom: 10%;
+  left : 40%;
+}
+.howtogo .howtogo_btn2 {
+  position: absolute;
+  bottom: 10%;
+  right : 40%;
+}
+.executives{
+    display: flex;
+}
+.executives img{
+    width: 200px;
+    height: auto;
+}
+
+button {
+  background-color: inherit;
+  border-radius: 50%;
+  border: 2px #fff solid;
+  color: #fff;
+  font-size: 14px;
+}
+button:hover {
+  font-weight: bold;
+  border: 3px #fff solid;
+}

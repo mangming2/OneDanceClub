@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
+    <title>About Us | ODC</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html" class="menu_logo"><span class="visually_hidden">ODC 로고</span></a>
+      <!-- 모바일 메뉴 햄버거 버튼 -->
+      <!-- <a href="" class="link_menu"><span clvisually_hiddenass="visually_hidden">메뉴 로고</span></a> -->
+      <ul class="menu_items">
+        <li class="menu_item"><a href="./index.html">Home</a></li>
+        <li class="menu_item"><a href="#">About Us</a></li>
+        <li class="menu_item"><a href="./portfolio.html">Portfolio</a></li>
+        <li class="menu_item"><a href="./qna.html">Q & A</a></li>
+        <li class="menu_item"><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="menu_links">
+        <a href="https://www.instagram.com/odc_streetdance/"  target="_blank" class="menu_link link_ist"><span class="visually_hidden">인스타그램</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100063589111633"  target="_blank" class="menu_link link_fb"><span class="visually_hidden">페이스북</span></a>
+        <a href="https://www.youtube.com/channel/UC02HqViXJ-uFmqg0K5gCygg"  target="_blank" class="menu_link link_yt"><span class="visually_hidden">유투브</span></a>
+      </div>
+    </header>
+
+    <main class="main" id="aboutUs">
+      <section class="practice">
+        <img src="./image/aboutus/정기연습.png" alt="정기연습">
+        <article>
+          <h1> 정기연습 설명</h1>
+          <p> 
+            정기연습은 매주 화/금 18:00~21:00에 진행되며, 각 장르별 팀장에게 
+            기본기를 배우게 됩니다. 또한 축제공연,유니온공연,정기공연 등을 준비하기 위해 정기적으로 연습을 하게 됩니다
+          </p>
+        </article>
+      </section>
+
+      <section class="genre">
+        <article class="genre_decription">
+          <h1>장르 설명</h1>
+          <ul class="buttons">
+            <li><button class="btn" id="bboy">B-boy</button></li>
+            <li><button class="btn" id="choreo">Choreography</button></li>
+            <li><button class="btn" id="girlhip">Girl's Hiphop</button></li>
+            <li><button class="btn" id="hiphop">Hiphop</button></li>
+            <li><button class="btn" id="house">House</button></li>
+            <li><button class="btn" id="krump">Krump</button></li>
+            <li><button class="btn" id="locking">Locking</button></li>
+            <li><button class="btn" id="poppin">Poppin</button></li>
+            <li><button class="btn" id="wacking">Waacking</button></li>
+          </ul>
+          <img id="genre_img" src="---.jpg" class="mt-5" alt="장르사진">
+          <h1 id="genre_name" class="text-center mt-5">장르이름</h1>
+          <h3 id="explain" class="text-center mt-5">설명</h3> 
+          <a href="" id="genre_link" target="_blank" class="mt-5">장르 관련 영상 보기</a>
+        </article>
+      </section>
+    </main>
+
+
+
+    <footer class="footer">
+      @이주함 @이지호
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+    <script src="./js/aboutUs.js"></script>
+  </body>
+</html>

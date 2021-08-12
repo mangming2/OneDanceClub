@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+  font-size: 22px;
+  line-height: 70px;
+  border-bottom: 1px #a1a5ad solid;
+}
+.header .menu_logo {
+  width: 70px;
+  height: 70px;
+  background-image: url("../image/odc_logo.png");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu_links .menu_link {
+  width: 26px;
+  height: 26px;
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu_links .link_ist {
+  background-image: url("../image/instagram_logo.png");
+  border-radius: 5px;
+}
+.menu_links .link_fb {
+  background-image: url("../image/facebook_logo.png");
+}
+.menu_links .link_yt {
+  background-image: url("../image/youtube_logo.png");
+}
+.header a {
+  display: block;
+}
+.header .menu_items,
+.header .menu_links {
+  display: flex;
+}
+.header .menu_item {
+  padding: 0 20px;
+}
+.main {
+  min-height: calc(100vh - 134px);
+  /* header: 70, footer: 64 */
+  max-width: 1000px;
+  /* 최대 width 1000px 고정 */
+  margin: 100px auto;
+  /* 위아래 100px 임시 고정 */
+}
+.footer {
+  height: 14px;
+  font-size: 14px;
+  text-align: center;
+  padding: 25px 0;
+  border-top: 1px #a1a5ad solid;
+}
+.visually_hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}

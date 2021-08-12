@@ -1,0 +1,14 @@
+.practice{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    color: black;
+}
+
+.genre_decription img{
+    width: 531px;
+    height: 298px;
+}
