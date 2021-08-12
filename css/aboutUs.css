@@ -3,6 +3,10 @@
     justify-content: space-around;
 }
 
+.buttons {
+    display: flex;
+}
+
 .genre_decription img{
     width: 531px;
     height: 298px;

@@ -1,8 +1,3 @@
-/* 구별 용도 */
-header, footer {
-  background: #fef;
-}
-
 .header {
   display: flex;
   justify-content: space-around;
@@ -10,6 +5,7 @@ header, footer {
   height: 70px;
   font-size: 22px;
   line-height: 70px;
+  border-bottom: 1px #a1a5ad solid;
 }
 .header .menu_logo {
   width: 70px;
@@ -52,11 +48,27 @@ header, footer {
   /* header: 70, footer: 64 */
   max-width: 1000px;
   /* 최대 width 1000px 고정 */
-  margin: 0 auto;
+  margin: 70px auto;
+  /* 위아래 70px 임시 고정 */
 }
 .footer {
   height: 14px;
   font-size: 14px;
   text-align: center;
   padding: 25px 0;
+  border-top: 1px #a1a5ad solid;
+}
+.visually_hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+button {
+  background-color: white;
+}
+button:hover {
+  font-weight: bold;
 }
