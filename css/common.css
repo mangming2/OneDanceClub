@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100vw;
   height: 70px;
   font-size: 22px;
@@ -16,9 +17,8 @@
   background-repeat: no-repeat;
 }
 .menu_links .menu_link {
-  width: 32px;
-  height: 32px;
-  margin-top: 19px;
+  width: 26px;
+  height: 26px;
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,8 +48,8 @@
   /* header: 70, footer: 64 */
   max-width: 1000px;
   /* 최대 width 1000px 고정 */
-  margin: 70px auto;
-  /* 위아래 70px 임시 고정 */
+  margin: 100px auto;
+  /* 위아래 100px 임시 고정 */
 }
 .footer {
   height: 14px;
@@ -67,8 +67,13 @@
   overflow: hidden;
 }
 button {
-  background-color: white;
+  background-color: inherit;
+  border-radius: 50%;
+  border: 2px #fff solid;
+  color: #fff;
+  font-size: 14px;
 }
 button:hover {
   font-weight: bold;
+  border: 3px #fff solid;
 }
