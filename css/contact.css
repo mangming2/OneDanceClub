@@ -1,6 +1,12 @@
 .howtogo {
+  
   position: relative;
   width: 500px;
+}
+.howtogo p {
+  position: absolute;
+  bottom: 90%;
+  left: 120%;
 }
 .howtogo .howtogo_img {
   /* 이미지 크기 임시로 잡아놓음 */

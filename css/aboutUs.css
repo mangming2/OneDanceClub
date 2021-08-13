@@ -2,16 +2,21 @@
     display: flex;
     justify-content: space-around;
 }
-
+.practice img{
+    margin-right: 50px;
+}
 .buttons {
     display: flex;
-<<<<<<< HEAD
-=======
-    color: black;
->>>>>>> a1260da4f78ca56509175534642425ede9434db7
 }
-
+.genre_decription{
+    margin: 100px;
+   
+}
 .genre_decription img{
     width: 531px;
     height: 298px;
+}
+
+section{
+    margin: 50px;
 }

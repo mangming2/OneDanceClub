@@ -17,11 +17,13 @@ section{
 .what_wedo{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   
 }
 
 .what_wedo img{
   width: 300px;
+  display:block;
 }
 
 .what_wedo_imgs{
