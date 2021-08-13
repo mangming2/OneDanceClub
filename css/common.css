@@ -65,6 +65,7 @@
   height: 1px;
   margin: -1px;
   overflow: hidden;
+<<<<<<< HEAD:css/common.css
 }
 @CHARSET "UTF-8";
 @font-face {
@@ -83,4 +84,6 @@ body{
 
 span{
  
+=======
+>>>>>>> a1260da4f78ca56509175534642425ede9434db7:css/headerFooter.css
 }
