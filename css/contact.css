@@ -25,7 +25,7 @@
 .executives{
     display: flex;
 }
-.executives img{
+.executives_img{
     width: 200px;
     height: auto;
 }
@@ -40,4 +40,13 @@ button {
 button:hover {
   font-weight: bold;
   border: 3px #fff solid;
+}
+
+section{
+  margin: 50px;
+}
+
+.executives_ist{
+  width: 26px;
+  vertical-align:middle;
 }
