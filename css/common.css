@@ -7,9 +7,7 @@
   font-size: 22px;
   line-height: 70px;
   border-bottom: 1px #a1a5ad solid;
-  background-color:#AF0404;
-  color: #252525;
- 
+  
 }
 .header .menu_logo {
   width: 70px;
@@ -55,8 +53,6 @@
   /* 위아래 100px 임시 고정 */
   
 }
-  
-}
 .footer {
   height: 14px;
   font-size: 14px;
@@ -73,17 +69,14 @@
   overflow: hidden;
 }
 
-body{
-  font-family: 'Air_font', sans-serif;
- 
-}
-
+/* 글꼴 설정은 -> reset.css -> body 태그에서 */
 
 /*
 color 테스트용으로 모아둠
 */
 
-.header {
+/* .header {
+  background-color:#AF0404;
   background-color:#414141;
   color: #252525;
 }
@@ -94,5 +87,5 @@ body{
   background-color:#810000;
 }
 .footer {
- background-color: #EEEBDD;
-}
+  background-color: #EEEBDD;
+} */

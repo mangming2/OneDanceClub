@@ -1,9 +1,8 @@
 .howtogo {
-  
   position: relative;
   width: 500px;
 }
-.howtogo p {
+.howtogo .howtogo_explain {
   position: absolute;
   bottom: 90%;
   left: 120%;
