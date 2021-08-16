@@ -1,24 +1,23 @@
 @charset "UTF-8";
 
 @font-face{
- 
-  
   src : url('BMJUA_ttf.ttf') format('truetype');
   font-family: 'Jua_font';
  
 }
-@font-face{
-	
+@font-face{	
 	src : url('Cafe24Ohsquareair.ttf') format('truetype');
-	font-family: 'Air_font';
-	
+	font-family: 'Air_font';	
 }
 
-@font-face{
-	
+@font-face{	
 	src : url('OdAlertness.ttf') format('truetype');
-	font-family: 'Long_font';
-	
+	font-family: 'Long_font';	
+}
+
+@font-face{	
+	src : url('Monopoly Bold.ttf') format('truetype');
+	font-family: 'Mono_font';	
 }
 
 html, body, div, span, applet, object, iframe,
@@ -47,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	/* font 체 찾아보기 */
-	font-family:'Long_font','Air_font', '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+	font-family:'Mono_font','Long_font','Jua_font','Air_font', '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 	line-height: 1;
 }
 ol, ul {

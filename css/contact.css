@@ -1,12 +1,13 @@
+.howto{
+  display: flex;
+  justify-content: space-around;
+}
+
 .howtogo {
   position: relative;
   width: 500px;
 }
-.howtogo .howtogo_explain {
-  position: absolute;
-  bottom: 90%;
-  left: 120%;
-}
+
 .howtogo .howtogo_img {
   /* 이미지 크기 임시로 잡아놓음 */
   width: 500px;
@@ -49,4 +50,33 @@ section{
 .executives_ist{
   width: 26px;
   vertical-align:middle;
+}
+
+.join_in_img{
+  width: 800px;
+}
+
+@keyframes appearSectionAnimation{
+  from{
+      
+      opacity: 0;
+  }
+  to{
+      transform: none;
+      opacity: 1;
+  }
+}
+
+.contact_section{
+  transform: translateY(100px);
+  opacity: 0;
+  animation: appearSectionAnimation 0.3s ease-in-out forwards;
+}
+
+.contact_section:nth-child(2){
+  animation-delay: 0.6s;
+}
+
+.contact_section:nth-child(3){
+  animation-delay: 0.9s;
 }

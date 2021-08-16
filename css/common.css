@@ -59,6 +59,12 @@
   text-align: center;
   padding: 25px 0;
   border-top: 1px #a1a5ad solid;
+
+  
+}
+.footer .footer_logo{
+  width: 26px;
+  vertical-align:middle;
 }
 .visually_hidden {
   position: absolute;

@@ -1,5 +1,5 @@
 const htmlName = document.querySelector("main").id
-const maxLengthImg = 2;
+const maxLengthImg = 5;
 let num = 1;
 
 const prevImg = (imgId) => {
