@@ -30,8 +30,6 @@
 }
 .about_activity .content_box h1,
 .career h1 {
-    font-size: 30px;
-    font-weight: bold;
     margin: 30px 0;
 }
 .main .activity {
@@ -43,7 +41,6 @@
     text-align: center;
 }
 .career h2 {
-    font-size: 24px;
     margin: 30px 0;
 }
 .career ol li {
@@ -51,42 +48,14 @@
     margin: 10px 0;
 }
 
-button {
+.activity_btn {
     background-color: inherit;
     border-radius: 50%;
     border: 2px #fff solid;
     color: #fff;
     font-size: 14px;
-  }
-  button:hover {
+}
+.activity_btn:hover {
     font-weight: bold;
     border: 3px #fff solid;
-  }
-
-  @keyframes appearArticleAnimation{
-    from{
-        
-        opacity: 0;
-    }
-    to{
-        transform: none;
-        opacity: 1;
-    }
-  }
-  
-  .about_activity{
-    transform: translateX(100px);
-    opacity: 0;
-    animation: appearArticleAnimation 0.3s ease-in-out forwards;
-  }
-  
-  .about_activity:nth-child(2){
-    animation-delay: 0.6s;
-  }
-  
-  .about_activity:nth-child(3){
-    animation-delay: 0.9s;
-  }
-  
-  
-  
+}
