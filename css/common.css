@@ -5,8 +5,18 @@ h1 {
 h2 {
   font-size: 24px;
 }
+body {
+  padding-top: 70px;
+}
+/* main {
+  background-color: #eee;
+} */
 
 .header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -14,8 +24,7 @@ h2 {
   height: 70px;
   font-size: 22px;
   line-height: 70px;
-  border-bottom: 1px #a1a5ad solid;
-  
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 .header .menu_logo {
   width: 70px;
@@ -24,6 +33,9 @@ h2 {
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
+}
+.header .menu_main {
+  border-bottom: 3px solid #ff1744;
 }
 .menu_links .menu_link {
   width: 26px;
@@ -68,7 +80,7 @@ h2 {
   transition: all 0.3s;
 }
 .footer .ist_link:hover {
-  word-spacing: 10px;
+  background-color: #eee;
 }
 
 .footer {
