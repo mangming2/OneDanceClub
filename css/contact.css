@@ -12,6 +12,10 @@
   width: 500px;
 }
 
+.howtogo_explain{
+  margin-left: 10px;
+  line-height: 300%;
+}
 .howtogo .howtogo_img {
   /* 이미지 크기 임시로 잡아놓음 */
   width: 500px;

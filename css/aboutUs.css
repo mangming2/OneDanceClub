@@ -5,11 +5,12 @@
     display: flex;
     justify-content: space-evenly;
     color: black;
+    
 }
 .buttons .btn{
     background-color: rgba(0,0,0,0);
     border: 1.5px solid black;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 2px 5px;
     font-size: 20px;
     transition: all 0.2s ease-in-out;
@@ -31,6 +32,7 @@
     width: 70%;
     text-align: right;
     margin-left: auto;
+    line-height:200%
 }
 .genre_decription .genre_decription_text h3 {
     margin: 30px 0;

@@ -12,6 +12,8 @@
 }
 .odc_description p{
   width: 400px;
+  text-align:right;
+  line-height:200%
 }
 
 .what_wedo{
