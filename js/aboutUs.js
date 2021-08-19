@@ -1,4 +1,10 @@
 const genrelist={
+  "bboy":{
+    "genre_name": "비보이", 
+    "explain":"70년대 초 브레이킹 비트가 사용되기 시작하면서 생긴 춤입니다. 스트릿 댄스 중 유일하게 플로어 중심의 무빙을 하며 스트릿 댄스 배틀문화를 주도하는 장르입니다. 스타일무브, 파워 무브, 프리즈 무브 등으로 동작이 나뉘며 화려함과 박력을 가지고 있는 춤입니다.", 
+    "img": "./image/aboutUs/bboy.jpg",
+    "link":"https://youtu.be/d5NMdOrR1e4"},
+    
   "choreo":{
     "genre_name": "코레오그래피 ",
     "explain":"음악의 다양한 소리, 질감, 리듬, 멜로디 등에 맞추어 노래에 가장 들어맞는 춤이 코레오 이며, 누구든지 코레오그래퍼 안무가가 될 수 있습니다. 좋아하는 음악에 맞추어 자신의 스타일로 안무를 만들 수 있고, 주로 음악의 박자를 쪼개서 동작들을 넣는 것을 특징으로 음악의 가사나 비트에 맞추어서 동작을 하여 표현하는 춤입니다.",
@@ -49,16 +55,7 @@ const genrelist={
     "genre_name": "하우스",
     "explain":"하우스 음악에 맞춰 추는 클럽용 댄스가 시초이며, 빠른 스텝과 그루브에서 나오는 풍부한 박자감, 음악의 특성상 빠른 진행을 보이는 템포, 변화무쌍하게 음악의 리듬을 풋웍으로 표현하는 춤입니다.", 
     "img": "./image/aboutUs/house.jpg",
-    "link":"https://youtu.be/SubUAMdHuqA"},
-
-  "bboy":{
-    "genre_name": "비보이", 
-    "explain":"70년대 초 브레이킹 비트가 사용되기 시작하면서 생긴 춤입니다. 스트릿 댄스 중 유일하게 플로어 중심의 무빙을 하며 스트릿 댄스 배틀문화를 주도하는 장르입니다. 스타일무브, 파워 무브, 프리즈 무브 등으로 동작이 나뉘며 화려함과 박력을 가지고 있는 춤입니다.", 
-    "img": "./image/aboutUs/bboy.jpg",
-    "link":"https://youtu.be/d5NMdOrR1e4"},
-  
-  
-
+    "link":"https://youtu.be/SubUAMdHuqA"}
 }
 
 function init() {
