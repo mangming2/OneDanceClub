@@ -59,7 +59,7 @@ const genrelist={
 }
 
 function init() {
-  $('#genre_img').attr('src',genrelist["choreo"]["img"])
+  $('#genre_img').attr("src",genrelist["choreo"]["img"])
   $('#genre_name').html(genrelist["choreo"]["genre_name"])
   $('#explain').html(genrelist["choreo"]["explain"])
   $('#genre_link').attr('href',genrelist["choreo"]["link"])
