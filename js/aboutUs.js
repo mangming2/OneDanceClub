@@ -59,19 +59,19 @@ const genrelist={
 }
 
 function init() {
-  $('#genre_img').attr("src",genrelist["choreo"]["img"])
-  $('#genre_name').html(genrelist["choreo"]["genre_name"])
-  $('#explain').html(genrelist["choreo"]["explain"])
-  $('#genre_link').attr('href',genrelist["choreo"]["link"])
+  $('#genre_img').attr("src",genrelist["choreo"]["img"]);
+  $('#genre_name').html(genrelist["choreo"]["genre_name"]);
+  $('#explain').html(genrelist["choreo"]["explain"]);
+  $('#genre_link').attr('href',genrelist["choreo"]["link"]);
 }
 
 init();
 
 $('.btn').click( function() {
-  $('#genre_img').attr('src',genrelist[$(this).attr("id")]["img"])
-  $('#genre_name').html(genrelist[$(this).attr("id")]["genre_name"])
-  $('#explain').html(genrelist[$(this).attr("id")]["explain"])
-  $('#genre_link').attr('href',genrelist[$(this).attr("id")]["link"])
+  $('#genre_img').attr('src',genrelist[$(this).attr("id")]["img"]);
+  $('#genre_name').html(genrelist[$(this).attr("id")]["genre_name"]);
+  $('#explain').html(genrelist[$(this).attr("id")]["explain"]);
+  $('#genre_link').attr('href',genrelist[$(this).attr("id")]["link"]);
 });
 
   /*
