@@ -11,6 +11,11 @@
   justify-content: space-around;
   align-items: center;
   overflow-wrap: break-word;
+  
+  background-image:url(../image/odc22.jpg);
+  
+  
+  
 }
 .odc_description .odc_description_img {
   width: 200px;
