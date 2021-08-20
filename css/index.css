@@ -1,44 +1,45 @@
-.main > section{
-  margin: 100px;
+.odc_description, 
+.what_wedo,
+.odc_video {
+  width: 100%;
+  padding: 100px 0;
 }
 
-.odc_description{
+.odc_description {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  overflow-wrap: break-word;
 }
-.odc_description img{
+.odc_description .odc_description_img {
   width: 200px;
 }
-.odc_description p{
+.odc_description .odc_description_text {
   width: 400px;
-  text-align:right;
-  line-height:200%
+  text-align: right;
+  line-height: 200%
 }
 
-.what_wedo{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
+.what_wedo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 
-.what_wedo img{
-  width: 300px;
+.what_wedo .what_wedo_imgs .what_wedo_img {
+  width: 100%;
+  height: auto;
   display: block;
 }
-
-.what_wedo_imgs{
-  margin-left: 30px;
-}
 .what_wedo_content {
-  display: inline-block;
   margin-top: 20px;
   font-size: 18px;
 }
 
-.odc_video{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.odc_video .odc_video_iframe {
+  display: block;
+  margin: 0 auto;
+  width: 640px;
+  height: 360px; 
 }
