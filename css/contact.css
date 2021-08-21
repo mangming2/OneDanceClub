@@ -8,16 +8,15 @@
 }
 .howtogo_wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .howtogo {
   position: relative;
-  width: 500px;
 }
 .howtogo .howtogo_img {
-  /* 이미지 크기 임시로 잡아놓음 */
-  width: 40vw;
-  height: 40vh;
+  /* 3:4 */
+  width: 480px;
+  height: 560px;
 }
 .howtogo_btn {
   position: absolute;
