@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 500px 1fr;
 }
+
 .about_activity .image_box {
     position: relative;
     height: 40vh;
