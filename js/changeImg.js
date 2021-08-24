@@ -4,11 +4,13 @@ let num = 1;
 
 const prevImg = (imgId) => {
     if(num > 1) num -= 1;
+    else num = maxLengthImg;
     loadImage(imgId);
 };
 
 const nextImg = (imgId) => {
     if(num < maxLengthImg) num += 1;
+    else num = 1;
     loadImage(imgId);
 };
 

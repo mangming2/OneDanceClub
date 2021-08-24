@@ -4,6 +4,7 @@
   margin: 100px 0;
 }
 .title {
+  
   margin-bottom: 50px;
 }
 .howtogo_wrapper {
@@ -20,27 +21,28 @@
 }
 .howtogo_btn {
   position: absolute;
-  bottom: 10%;
-  background-color: inherit;
+  top: calc(50% - 1.5rem);
   border: none;
-  color: #ff1744;
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
+  /* Flex rules 'em all */
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  color: #ff1744;
+  opacity: 70%;
+  background-color: inherit;
+  font-size: 30px;
 }
 .howtogo_btn:hover {
   color: white;
-  border-radius: 50%;
   background-color: #ff1744;
 }
 .howtogo .howtogo_btn1 {
-  left : 40%;
+  left : 0;
 }
 .howtogo .howtogo_btn2 {
-  right : 40%;
+  right : 0;
 }
 .howtogo_wrapper .howtogo_explain{
   display: flex;
@@ -72,12 +74,12 @@
   margin-bottom: 10px;
 }
 .executives_wrapper .ist_link {
-  display: block;
+  display: inline-block;
   margin-top: 6px;
   transition: all 0.3s;
 }
 .executives_wrapper .ist_link:hover {
-  background-color: #ccc;
+  background-color: #eee;
 }
 .executives_wrapper .executives_ist{
   width: 14px;

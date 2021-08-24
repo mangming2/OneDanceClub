@@ -44,6 +44,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.menu_links .menu_link:hover {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
 .menu_links .link_ist {
   background-image: url("../image/instagram_logo.png");
   border-radius: 5px;
@@ -80,15 +84,15 @@ body {
   transition: all 0.3s;
 }
 .footer .ist_link:hover {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 .footer {
   height: 14px;
   font-size: 14px;
   text-align: center;
-  padding: 25px 0;
-  border-top: 1px #a1a5ad solid;
+  padding: 30px 0;
+  background-color: #eee;
 }
 .footer .footer_logo{
   width: 14px;
@@ -159,22 +163,3 @@ body {
 }
 
 /* 글꼴 설정은 -> reset.css -> body 태그에서 */
-
-/*
-color 테스트용으로 모아둠
-*/
-
-/* .header {
-  background-color:#AF0404;
-  background-color:#414141;
-  color: #252525;
-}
-.main {
-  background-color:
-}
-body{ 
-  background-color:#810000;
-}
-.footer {
-  background-color: #EEEBDD;
-} */
