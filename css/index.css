@@ -43,3 +43,41 @@
   width: 640px;
   height: 360px; 
 }
+.odc_video .odc_video_text {
+  display: none;
+}
+
+@media screen and (max-width: 768px),
+ screen and (max-height: 768px) and (orientation: landscape) {
+  .odc_description {
+    display: block;
+  }
+  .odc_description .odc_description_img {
+    display: block;
+    margin: 0 auto 50px;
+  }
+  .odc_description .odc_description_text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .what_wedo {
+    grid-template-columns: 1fr;
+  }
+  .what_wedo_content {
+    text-align: center;
+  }
+
+  .odc_video .odc_video_iframe {
+    display: none;
+  }
+  .odc_video .odc_video_text {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+  }
+  .odc_video .odc_video_text:hover {
+    font-weight: 700;
+  }
+}

@@ -1,6 +1,3 @@
-.genre {
-    width: 1000px;
-}
 .genre .buttons {
     display: flex;
     justify-content: space-evenly;
@@ -46,4 +43,23 @@
 }
 .genre_decription .genre_decription_text a:hover {
     background-color: #eee;
+}
+
+@media screen and (max-width: 768px),
+ screen and (max-height: 768px) and (orientation: landscape) {
+
+    .genre .buttons {
+        flex-wrap: wrap;
+    }
+    .genre .genre_decription{
+        margin: 0
+    }
+    .genre .genre_decription img{
+        width: 100%;
+    }
+    .genre_decription .genre_decription_text {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
 }

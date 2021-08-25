@@ -64,3 +64,19 @@
     margin: 10px 0;
 }
 
+@media screen and (max-width: 768px),
+ screen and (max-height: 768px) and (orientation: landscape) {
+    .activity .about_activity {
+        grid-template-columns: 1fr;
+    }
+    .about_activity .content_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+    .about_activity .content_box h1 {
+        margin-top: 0;
+    }
+}
