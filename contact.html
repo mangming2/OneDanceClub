@@ -12,9 +12,20 @@
     <header class="header">
       <a class="menu_logo" href="./index.html"><span class="visually_hidden">ODC 로고</span></a>
       <div class="menu_btns">
-        <a class="menu_btn_prev" href="./qna.html"><span class="visually_hidden">전 페이지</span></a>
-        <a class="menu_btn" href=""><span class="visually_hidden">메뉴 로고</span></a>
-        <a class="menu_btn_next" href="./index.html"><span class="visually_hidden">다음 페이지</span></a>
+        <a class="menu_btn_prev" href="./contact.html"><span class="visually_hidden">전 페이지</span></a>
+
+
+        <div class="menu menu_btn" onclick="sideMenu();"></div>
+        <div class="side_menu " onclick="sideMenu();">
+          <li class="menu_item"><a href="./index.html">Home</a></li>
+          <li class="menu_item"><a href="./aboutUs.html">About Us</a></li>
+          <li class="menu_item"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="menu_item"><a href="./qna.html">Q & A</a></li>
+          <li class="menu_item"><a href="./contact.html">Contact</a></li>
+      </div>
+
+
+        <a class="menu_btn_next" href="./aboutUs.html"><span class="visually_hidden">다음 페이지</span></a>
       </div>
       <ul class="menu_items">
         <li class="menu_item"><a href="./index.html">Home</a></li>
@@ -109,6 +120,7 @@
     
     
     <script src="./js/changeImg.js"></script>
+    <script src="./js/menu.js"></script>
     
   </body>
   </html>

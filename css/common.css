@@ -34,7 +34,7 @@ body {
   display: none;
 }
 .menu_btns .menu_btn {
-  background-image: url("../image/icon_menu.png");
+  
   width: 32px;
   height: 32px;
 }
@@ -145,6 +145,79 @@ body {
   .header .menu_links {
     margin-right: 30px;
   }
+
+
+
+  .menu {
+    background: url("../image/icon_menu.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 999;
+    
+  }
+  
+  .menu.active {
+    background: url("../image/cancel.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 999;
+    
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  .side_menu {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: none;
+    text-align: center;
+    background: black;
+    opacity: 0.5;
+    
+    z-index: 998;
+    
+  }
+  .side_menu li {
+    padding: 0;
+  }
+  .side_menu a {
+    position: relative;
+    right:13%;
+    top: 10%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  .side_menu .menu_item{
+    padding-left: 0px;
+  }
+  .side_menu.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+  }
+
+
+
 }
 
 @keyframes appearSectionAnimation{
@@ -202,3 +275,4 @@ body {
 }
 
 /* 글꼴 설정은 -> reset.css -> body 태그에서 */
+
